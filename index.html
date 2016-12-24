@@ -12,10 +12,16 @@
   <script type="text/babel">
     var MyComponent = React.createClass({
       render: function() {
-        return <div>My Component</div>;
+        return <div>
+                <h1>{ this.props.text }</h1>
+        </div>;
       }
     });
-    React.render(<MyComponent />, document.getElementById('react-container'));
+    React.render(<div>
+                  <MyComponent text="Hello world" />
+                  <MyComponent text="Goodbye!" />
+                </div>,
+                  document.getElementById('react-container'));
   </script>
 </body>
 </html>
