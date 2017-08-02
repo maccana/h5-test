@@ -1,7 +1,3 @@
  To run
 ------------
-```
-
-python -m SimpleHTTPServer 
-
-```
+`python -m SimpleHTTPServer`
