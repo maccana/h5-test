@@ -1,0 +1,13 @@
+body {
+  padding: 0px;
+  margin: auto;
+  background-color: lightgrey !important;
+}
+button {
+  margin-left: 3px !important;
+}
+.note {
+  background-color: yellow;
+  width: 10em;
+  height:10em;
+}
