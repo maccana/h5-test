@@ -8,7 +8,7 @@ var Note = React.createClass({
   render: function() {
     return (
       <div className="note">
-      <p>{this.props.children}</p>
+        <p>{this.props.children}</p>
         <span>
           <button onClick={this.remove} className="btn btn-danger glyphicon glyphicon-trash"/>
           <button onClick={this.edit} className="btn btn-primary glyphicon glyphicon-pencil" />
